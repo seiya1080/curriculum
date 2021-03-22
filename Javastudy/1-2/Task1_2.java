@@ -29,9 +29,9 @@ public class Task1_2 {
     strArray[1] = "もも";
     strArray[2] = "ぶどう";
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
-    System.out.println("strArray[2] … " + strArray[2]);
+    System.out.println("strArray[1] … " + strArray[1]);
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
-         *  数値型の配列を作成し、10~50の五つの数字を格納
+         *  int型の配列を作成し、10~50の五つの数字を格納
          */
     int[] intArray = { 10, 20, 30, 40, 50 };
 
