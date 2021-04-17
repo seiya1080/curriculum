@@ -39,7 +39,7 @@ public class Study {
         //課題実施日：2021年/4/14　　　　　
         calendar.add(Calendar.YEAR,1);
         System.out.println(calendar.get(Calendar.YEAR));
-        calendar.add(Calendar.MONTH,2);
+        calendar.add(Calendar.MONTH,3);
         System.out.println(calendar.get(Calendar.MONTH));
         calendar.add(Calendar.DATE,15);
         System.out.println(calendar.get(Calendar.DATE));
