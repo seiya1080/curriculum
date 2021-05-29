@@ -1,0 +1,266 @@
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 100px;
+	background: #141f40;
+} 
+
+.side {
+	float: left;
+	width: 150px;
+	height: 250px;
+	background: #80bfa8;	
+} 
+
+.content {
+	float: right;
+	width: 250px;
+	height: 250px;
+	background: #8c2727;
+} 
+.sample {
+	position: relative;
+	/* float: right; */
+	top: 20px; 
+	left: 220px;
+	width: 160px;
+	height: 60px;
+	background: #FFFFFF	;
+} 
+.insample1 {
+	position: relative;
+	/* float: right; */
+	top: 10px; 
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	background: #a9004b;
+} 
+.insample2 {
+	position: relative;
+	/* float: right; */
+	top: 0px; 
+	left: 50px;
+	width: 40px;
+	height: 40px;
+	background: #a9004b	;
+} 
+.insample3 {
+	position: relative;
+	/* float: right; */
+	top: 0px; 
+	left: 50px;
+	width: 40px;
+	height: 40px;
+	background: #a9004b	;
+} 
+/* .content-top-left {
+	float: left;
+	width: 150px;
+}
+
+.content-top-left-top {
+	height: 50px;
+	background: #dbd400;
+} 
+
+.content-top-left-bottom {
+	height: 100px;
+	background: #0093b7;
+} 
+
+.content-top-right {
+	float: right;
+	width: 100px;
+	height: 150px;
+	background: #ff9e6b;
+}
+
+.content-bottom {
+	height: 100px;
+	background: #8c2727;
+}	  */
+.incontent1 {
+	position: relative;
+	/* float: right; */
+	top: 40px; 
+	left: 40px;
+	border : 5px solid #FFFFFF ;
+	width: 150px;
+	height: 40px;
+	background: #ff863f;
+} 
+.incontent2 {
+	position: relative;
+	/* float: right; */
+	top: 60px; 
+	left: -5px;
+	border : 5px solid #FFFFFF ;
+	width: 150px;
+	height: 40px;
+	background: #ff863f;
+} 
+.incontent3 {
+	position: relative; 
+	/* float: right; */
+	top: 60px; 
+	left: -5px;
+	border : 5px solid #FFFFFF ;
+	width: 150px;
+	height: 40px;
+	background: #ff863f;
+} 
+.footer {
+	height: 100px;
+	background: #d98d30;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+@media screen and (max-width: 479px) {
+    /* 画像の横幅を調整 */
+	body {
+		width: 100%;
+	}
+	
+	.wrapper {
+		width: 200px;
+		margin: 0 auto;
+	}
+	
+	.header {
+		height: 200px;
+		background: #141f40;
+	} 
+	
+	.side {
+		float: left;
+		width: 200px;
+		height: 100px;
+		background: #80bfa8;	
+	} 
+	
+	.content {
+		float: right;
+		width: 200px;
+		height: 250px;
+		background: #8c2727;
+	} 
+	.sample {
+		position: relative;
+		/* float: right; */
+		top: 20px; 
+		left: 70px;
+		width: 60px;
+		height: 160px;
+		background: #FFFFFF	;
+	} 
+	.insample1 {
+		position: relative;
+		/* float: right; */
+		top: 10px; 
+		left: 10px;
+		width: 40px;
+		height: 40px;
+		background: #a9004b;
+	} 
+	.insample2 {
+		position: relative;
+		/* float: right; */
+		top: 50px; 
+		left: 0px;
+		width: 40px;
+		height: 40px;
+		background: #a9004b	;
+	} 
+	.insample3 {
+		position: relative;
+		/* float: right; */
+		top: 50px; 
+		left: 0px;
+		width: 40px;
+		height: 40px;
+		background: #a9004b	;
+	} 
+	/* .content-top-left {
+		float: left;
+		width: 150px;
+	}
+	
+	.content-top-left-top {
+		height: 50px;
+		background: #dbd400;
+	} 
+	
+	.content-top-left-bottom {
+		height: 100px;
+		background: #0093b7;
+	} 
+	
+	.content-top-right {
+		float: right;
+		width: 100px;
+		height: 150px;
+		background: #ff9e6b;
+	}
+	
+	.content-bottom {
+		height: 100px;
+		background: #8c2727;
+	}	  */
+	.incontent1 {
+		position: relative;
+		/* float: right; */
+		top: 20px; 
+		left: 30px;
+		border : 5px solid #FFFFFF ;
+		width: 150px;
+		height: 40px;
+		background: #ff863f;
+	} 
+	.incontent2 {
+		position: relative;
+		/* float: right; */
+		top: 60px; 
+		left: -5px;
+		border : 5px solid #FFFFFF ;
+		width: 150px;
+		height: 40px;
+		background: #ff863f;
+	} 
+	.incontent3 {
+		position: relative; 
+		/* float: right; */
+		top: 60px; 
+		left: -5px;
+		border : 5px solid #FFFFFF ;
+		width: 150px;
+		height: 40px;
+		background: #ff863f;
+	} 
+	.footer {
+		height: 100px;
+		background: #d98d30;
+	}
+	
+	.clearfix:after {
+		content: "";
+		display: block;
+		clear: both;
+		height: 0;
+		visibility: hidden;
+	}
+}
