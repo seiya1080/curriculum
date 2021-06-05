@@ -1,0 +1,22 @@
+
+@charset "UTF-8";
+.body{
+/* // div */
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.body_box{
+/* // div */
+background-color: white;
+position: relative;
+top: -20px; 
+left: 40px;
+border : 1px solid grey ;
+width: 300px;
+height: 25px;
+
+/* padding-top: 50px;
+padding-bottom: 50px; */
+
+}
