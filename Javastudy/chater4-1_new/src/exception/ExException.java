@@ -1,7 +1,7 @@
 package exception;
 
+import java.util.Objects;
 import java.util.Scanner;
- 
 /**
  * 4-1 : 課題内容
  *
@@ -107,9 +107,10 @@ public class ExException {
     // ここへ記述
     private static void NullPointerException() throws NullPointerException  {     
         
-        String str = null;
-        if (str.equals("aaa")) {
-            System.out.print(CONST_MSG_NULLPO);
+        Object str = null;
+        if (Objects.isNull(str))
+         {
+            System.out.println(CONST_MSG_NULLPO);
         }
     }    
     /**
